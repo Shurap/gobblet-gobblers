@@ -1,0 +1,27 @@
+.App {
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.cover {
+  border: 2px solid blue;
+
+  max-height: 1080px;
+  max-width: 1080px;
+}
+
+.img {
+
+  object-fit: scale-down;
+    height: 100%;
+  width: 100%;
+
+
+}
